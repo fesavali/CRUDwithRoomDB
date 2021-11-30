@@ -6,7 +6,7 @@ import androidx.room.Insert
 @Dao
 interface BooksDao {
     @Insert
-    fun insert(booksDB: BooksDB){
+    fun insert(booksDBTable: BooksDBTable){
 
     }
 }
