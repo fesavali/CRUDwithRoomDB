@@ -5,9 +5,9 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "booksDB")
-class BooksDB(@PrimaryKey
+class BooksDBTable(@PrimaryKey
               val id: String,
-              @ColumnInfo(name="author_name")
+                   @ColumnInfo(name="author_name")
               val author: String,
-              val bookName: String) {
+                   val bookName: String) {
 }
