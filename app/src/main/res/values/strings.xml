@@ -3,4 +3,6 @@
     <string name="book_author">Book Author</string>
     <string name="book_title">Book Title</string>
     <string name="save_book">Save Book</string>
+    <string name="go">Go</string>
+    <string name="todo">TODO</string>
 </resources>
